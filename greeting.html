@@ -81,6 +81,20 @@
                 </div>
             </div>
 			
+			<!-- 老师好 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://img95.699pic.com/photo/50224/4107.jpg_wh860.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">老师好</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">lǎo shī hǎo</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">Hello，teacher.</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">李老师好。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">lǐ lǎo shī hǎo.</div>
+                    <div class="audio-text text-gray-600">Hello, teacher lǐ.</div>
+                </div>
+            </div>
+			
 			<!-- 你们好 -->
             <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
                 <div class="scene-image w-full" style="background-image: url('https://img95.699pic.com/photo/50235/5934.jpg_wh860.jpg')"></div>
@@ -205,12 +219,12 @@
 			});
 		});
 		document.querySelectorAll('.p-6 div').forEach(element => {
-		element.style.cursor = 'pointer';
-		element.addEventListener('click', function() {
-			let text = this.textContent;
-			playAudio(text);
+			element.style.cursor = 'pointer';
+			element.addEventListener('click', function() {
+				let text = this.textContent;
+				playAudio(text);
+			});
 		});
-		});
-</script>
+	</script>
 </body>
 </html>
