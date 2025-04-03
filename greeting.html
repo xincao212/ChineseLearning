@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汉语日常会话学习</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4A90E2',
+                        secondary: '#F5A623'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '2px',
+                        DEFAULT: '4px',
+                        'md': '8px',
+                        'lg': '12px',
+                        'xl': '16px',
+                        '2xl': '20px',
+                        '3xl': '24px',
+                        'full': '9999px',
+                        'button': '4px'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .card {
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .audio-text:hover {
+            cursor: pointer;
+            color: #4A90E2;
+        }
+        .scene-image {
+            height: 400px;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="min-h-[1024px] bg-gray-50">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-center mb-12 text-gray-800">汉语日常会话1</h1>
+        
+        <div class="grid grid-cols-2 gap-8">
+            <!-- 你好 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://ai-public.mastergo.com/ai/img_res/75d7752448e594144b1b9637f2a06488.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">你好</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">ní hǎo</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">Hello</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">你好，很高兴认识你。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">ní hǎo, hěn gāo xìng rèn shi nǐ.</div>
+                    <div class="audio-text text-gray-600">Hello, nice to meet you.</div>
+                </div>
+            </div>
+
+			<!-- 您好 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://img95.699pic.com/photo/50224/4107.jpg_wh860.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">您好</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">nín hǎo</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">Hello</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">您好，老师。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">nín hǎo, lǎo shī.</div>
+                    <div class="audio-text text-gray-600">Hello, teacher.</div>
+                </div>
+            </div>
+			
+			<!-- 你们好 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://img95.699pic.com/photo/50235/5934.jpg_wh860.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">你们好</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">nǐ men hǎo</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">Hello everyone</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">同学们，你们好。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">tóng xué men，nǐ men hǎo.</div>
+                    <div class="audio-text text-gray-600">Hello, students.</div>
+                </div>
+            </div>
+			
+			<!-- 我是 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://p26.toutiaoimg.com/origin/pgc-image/515a447f068246a585b24746868559ff.jpg')"></div>
+                <div class="p-6">
+				<div class="audio-text text-3xl font-bold mb-2">我是</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">wǒ shì</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">I am</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">你好，我是李月。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">ní hǎo, wǒ shì lǐ yuè.</div>
+                    <div class="audio-text text-gray-600">Hello, I am Yue Li.</div>
+                </div>
+            </div>
+
+            <!-- 再见 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://ai-public.mastergo.com/ai/img_res/8e70cd367bcff008aa357be7780bf08b.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">再见</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">zài jiàn</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">Goodbye</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">明天见，再见。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">míng tiān jiàn, zài jiàn.</div>
+                    <div class="audio-text text-gray-600">See you tomorrow, goodbye.</div>
+                </div>
+            </div>
+
+            <!-- 对不起 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://ai-public.mastergo.com/ai/img_res/75257194467e74455a01a7086b1a68c7.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">对不起</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">duì bu qǐ</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">Sorry</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">对不起，我来晚了。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">duì bu qǐ, wǒ lái wǎn le.</div>
+                    <div class="audio-text text-gray-600">I'm sorry I'm late.</div>
+                </div>
+            </div>
+
+            <!-- 没关系 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://ai-public.mastergo.com/ai/img_res/a0d405c098814883997cbf0a56d7728c.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">没关系</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">méi guān xi</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">It's okay</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">没关系，不要担心。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">méi guān xi, bú yào dān xīn.</div>
+                    <div class="audio-text text-gray-600">It's okay, don't worry.</div>
+                </div>
+            </div>
+
+            <!-- 谢谢 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://ai-public.mastergo.com/ai/img_res/0f29335dc316f833fdac83ca283e45d2.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">谢谢</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">xiè xie</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">Thank you</div>
+                    <hr>
+                    <div class="audio-text text-lg mb-1">谢谢你。</div>
+                    <div class="audio-text text-sm text-gray-500 mb-1">xiè xie nǐ.</div>
+                    <div class="audio-text text-gray-600">Thank you.</div>
+                </div>
+            </div>
+
+            <!-- 不用谢 -->
+            <div class="card bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="scene-image w-full" style="background-image: url('https://ai-public.mastergo.com/ai/img_res/fb38a6f155393224daa5d0d586310b7f.jpg')"></div>
+                <div class="p-6">
+                    <div class="audio-text text-3xl font-bold mb-2">不用谢</div>
+                    <div class="audio-text text-lg text-gray-600 mb-2">bú yòng xiè</div>
+                    <div class="audio-text text-xl text-gray-700 mb-4">You're welcome</div>
+					<hr>
+					<div class="audio-text text-lg mb-1">不用谢，这是我应该做的。</div>
+					<div class="audio-text text-sm text-gray-500 mb-1">bú yòng xiè, zhè shì wǒ yīng gāi zuò de.</div>
+					<div class="audio-text text-gray-600">You're welcome, it's what I should do.</div>
+				</div>
+            </div>
+        </div>
+    </div>
+	<script>
+		function playAudio(text) {
+			const encodedText = encodeURIComponent(text); // 对文本进行编码
+				const audio = new Audio(`https://fanyi.baidu.com/gettts?lan=zh&text=${encodedText}&spd=5&source=web`);
+				audio.play().catch(error => {
+                console.error('音频播放错误:', error);
+				});
+		}
+		document.querySelectorAll('.sound-icon').forEach(icon => {
+			icon.addEventListener('click', function() {
+				const container = this.closest('.p-6');
+				let text;
+				if (this.parentElement.classList.contains('bg-gray-50')) {
+					text = this.previousElementSibling.textContent;
+				} else {
+					text = container.querySelector('h2').textContent;
+				}
+				this.classList.add('playing');
+				playAudio(text);
+				setTimeout(() => {
+					this.classList.remove('playing');
+				}, 1000);
+			});
+		});
+		document.querySelectorAll('.p-6 div').forEach(element => {
+		element.style.cursor = 'pointer';
+		element.addEventListener('click', function() {
+			let text = this.textContent;
+			playAudio(text);
+		});
+		});
+</script>
+</body>
+</html>
